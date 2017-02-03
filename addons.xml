@@ -38,4 +38,42 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="script.kobra.disclaimer" name="[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM DISCLAIMER[/COLOR]" version="1.0.0" provider-name="[COLOR darkred][I]KOBRA [/I][/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM DISCLAIMER[/COLOR]</summary>
+		<description lang="en">Kobra XXX Streams disclaimer</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="script.kobra.builds" name="[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM VERSION CHECK[/COLOR]" version="1.0.0" provider-name="[COLOR darkred][I]KOBRA [/I][/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM VERSION CHECK[/COLOR]</summary>
+		<description lang="en">Manually check your build version number</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
 </addons>
