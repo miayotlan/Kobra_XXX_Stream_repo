@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.xxxstream" name="[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM WIZARD[/COLOR]" version="1.0.0" provider-name="[COLOR darkred][I]KOBRA [/I][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM WIZARD[/COLOR]</summary>
+    <description lang="en">You must be 18 or over to use this add_on. This program provides easy access to Kobra XXX Streams</description>
+    <platform>all</platform>
+  </extension>
+</addon>
