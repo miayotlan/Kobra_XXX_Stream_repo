@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.xxxstream" name="[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM WIZARD[/COLOR]" version="1.0.1" provider-name="[COLOR darkred][I]KOBRA [/I][/COLOR]">
+<addon id="plugin.program.xxxstream" name="[COLOR darkred][I]KOBRA [/I][/COLOR][COLOR ghostwhite] XXX STREAM WIZARD[/COLOR]" version="1.0.2" provider-name="[COLOR darkred][I]KOBRA [/I][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
